@@ -1,0 +1,26 @@
+# Topics
+camera_topic: "/usb_cam/image_raw"
+camera_info: "/usb_cam/camera_info"
+lidar_topic: "/velodyne_points"
+
+# Dynamic rqt_reconfigure default bounds
+feature_extraction:
+  x_min: -10.0
+  x_max: 10.0
+  y_min: -8.0
+  y_max: 8.0
+  z_min: -5.0
+  z_max: 5.0
+  
+# Properties of chessboard calibration target
+chessboard:
+  pattern_size:
+    height: 7
+    width: 5  
+  square_length: 95
+  board_dimension:
+    width: 599
+    height: 792
+  translation_error:
+    x: 0.5
+    y: 1

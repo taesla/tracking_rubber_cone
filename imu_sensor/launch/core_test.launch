@@ -1,0 +1,5 @@
+<launch>
+	<param name="move_mode" type="string" value="default" />
+	<param name="car_mode" type="string" value="global" />
+	<node name="core_control" pkg="core" type="core_based_waypoint.py" output="screen"/>
+</launch>

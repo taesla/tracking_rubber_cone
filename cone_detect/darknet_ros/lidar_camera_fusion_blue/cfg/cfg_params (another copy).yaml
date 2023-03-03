@@ -1,0 +1,25 @@
+#camera_matrix: [284.5971069335938, 0.000000, 329.8077532406824, 0.000000,
+#0.000000, 248.4765014648438, 1.7626853707116, 0.000000,
+#0.000000, 0.000000, 1.000000, 0.000000,]
+camera_matrix: [222.268000000, 0.000000, 351.9990000000, 0.000000,
+0.000000, 306.6710000000, 105.1070000000, 0.000000,
+0.000000, 0.000000, 1.000000, 0.000000,]
+
+#fx = x direction torsion (axis of center line) - torsion up, + torsion down fx = fy / 1.0051
+#fy = y direction torsion (axis of center line) - torsion up, + torsion down fy = fx*1.0051
+#cx = zoom rotation (axis of center line), 
+#cy = zoom in ( + zoom out , - zoom in ), fy = cy * 1.7363
+#camera_matrix is coordinate of "image itself"
+#camera_matrix is not useful for editing pointcloud, only for image itself
+
+rlc: [1.000000,-0.0160,-0.00106,
+0.0160,1.000000,-0.0246,
+0.00145,0.0246,1.000000]
+
+tlc: [0.000001,0.3500000,-0.488744]
+
+
+
+
+
+

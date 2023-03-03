@@ -1,0 +1,52 @@
+#camera_matrix: [284.5971069335938, 0.000000, 329.8077532406824, 0.000000,
+#0.000000, 248.4765014648438, 1.7626853707116, 0.000000,
+#0.000000, 0.000000, 1.000000, 0.000000,]
+#camera_matrix: [440.5971069335938, 0.000000, 420.8077532406824, 0.000000,
+#0.000000, 408.4765014648438, 74.7626853707116, 0.000000,
+#0.000000, 0.000000, 1.000000, 0.000000,]
+camera_matrix: [640.00, 0.000000, 330.00, 0.000000,
+0.000000, 640.00, 330.00, 0.0000000, 
+0.000000, 0.0000000, 1.0000000, 0.0000000]
+#camera_matrix: [354.5971069335938, 0.000000, 604.8077532406824, 0.000000,
+#0.000000, 328.4765014648438, 84.7626853707116, 0.000000,
+#0.000000, 0.000000, 1.000000, 0.000000,]
+#fx = x direction torsion (axis of center line) - torsion up, + torsion down fx = fy / 1.0051
+#fy = y direction torsion (axis of center line) - torsion up, + torsion down fy = fx*1.0051
+#cx = zoom rotation (axis of center line), 
+#cy = zoom in ( + zoom out , - zoom in ), fy = cy * 1.7363
+#camera_matrix is coordinate of "camera itself"
+#camera_matrix is not useful for editing pointcloud, only for image itself
+
+#rlc: [ 0.99974221 , -0.02260876 , -0.00208916 ,
+#       0.02252437 , 0.99916366 ,0.0341267 ,
+#       -0.00208916 ,0.0341267 ,  0.99941533 ]
+
+
+rlc: [ 1.000000,          0.0000000,         0.0000,
+       0.00000,         1.0000000, 0.00000,
+       0.000000,          0.00000000,  1.000000]
+
+
+#tlc: [ -0.0811959,7.6278759,5.113847 ]
+
+tlc: [ 0.0000 ,-0.005000,0.00000 ]
+
+# x = movement of x direction
+# y = movement of y direction
+# z = pointcloud zoom in, zoom out
+# tlc is coordinate of "image itself"
+# tlc is not useful for editing image, only for pointcloud
+# so first of all, draw all pointcloud you want to image
+# second, editing camera_matrix 
+
+#tlc: [ -0.0811959,0.0278759,0.113847 ]
+#tlc: [-0.0549063,0.0125594,0.236822]
+
+
+# tlc: x = left direction , y = up direction , z = backword
+
+
+
+
+
+
